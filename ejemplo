@@ -1,0 +1,23 @@
+esphome:
+  name: ESP_ejemplo
+  platform: ESP32
+  board: esp-wrover-kit
+
+wifi:
+  ssid: "HOME"
+  password: "montse26marcos21TXELL."
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Esp Ejemplo Fallback Hotspot"
+    password: "lDajK8FNw9Y0"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
